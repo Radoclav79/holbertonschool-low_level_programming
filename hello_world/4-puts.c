@@ -1,2 +1,3 @@
-#!/bin/bash
-gcc puts("Programming is like building a multilingual puzzle")
+#include<stdio.h>
+
+int puts(const char * "Programming is like building a multilingual puzzle")
