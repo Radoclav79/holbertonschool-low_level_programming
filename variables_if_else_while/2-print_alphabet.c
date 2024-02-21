@@ -1,9 +1,13 @@
 #include  <stdio.h>
-
-char main(void)
+/**
+ * main - print alphabet
+ * Return: always 0
+ */
+int main(void)
 {
-	char i = a;
-	for(i = a; i <= z; i++)
+	char i = 'a';
+
+	for (i = 'a'; i <= 'z'; i++)
 		putchar(i);
 	return (0);
 }
