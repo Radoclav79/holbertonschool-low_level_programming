@@ -2,12 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-int main(void)
-/*
- * main - is function for find random
- * Return 0
- * function for random n
+/**
+ * main - is function for find random n
+ *
+ * Return: 0
  */
+int main(void)
 {
 	int n;
 
