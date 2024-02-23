@@ -6,6 +6,7 @@
  *
  */
 int _islower(int c)
+/* c is case for verify */
 {
 	if (c >= 'a' && c <= 'z')
 	{
