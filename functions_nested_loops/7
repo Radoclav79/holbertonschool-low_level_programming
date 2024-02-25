@@ -1,8 +1,0 @@
-#include <stdio.h>
-/**
- * declare a string
- *
- * print _putchar
- */
-
-putchar("%s", _putchar);
