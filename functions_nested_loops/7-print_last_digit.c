@@ -8,7 +8,5 @@
 
 int print_last_digit(int c)
 {
-	srand(time(0);
-	c = rand(RAND_MAX / 2);
 	return (c % 10);
 }
