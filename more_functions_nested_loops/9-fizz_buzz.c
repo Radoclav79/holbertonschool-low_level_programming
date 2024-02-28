@@ -13,36 +13,24 @@ int main(void)
 		if ((i + 1) % 3 == 0 && ((i + 1) % 5 == 0))
 		{
 			printf("FizzBuzz");
-			if (i < 99)
-			{
-				printf(" ");
-			}
 		}
 		else if ((i + 1) % 3 == 0)
 		{
 			printf("Fizz");
-			if (i < 99)
-			{
-				printf(" ");
-			}
 		}
 		else if ((i + 1) % 5 == 0)
 		{
 			printf("Buzz");
-			if (i < 99)
-			{
-				printf(" ");
-			}
 		}
 		else
 		{
 			printf("%d", i + 1);
-			if (i < 99)
-			{
-				printf(" ");
-			}
 		}
-			printf("\n");
+		if (i < 99)
+		{
+			printf(" ");
 		}
+		printf("\n");
+	}
 	return (0);
 }
