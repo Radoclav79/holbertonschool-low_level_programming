@@ -24,6 +24,10 @@ int main(void)
 		}
 		else
 		{
+			if (i == 99)
+			{
+				printf("%d\n", i + 1);
+			}
 			printf("%d ", i + 1);
 		}
 	}
