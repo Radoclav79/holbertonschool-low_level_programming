@@ -36,7 +36,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%d ", i + 1);
+			printf("%d", i + 1);
 			if (i < 99)
 			{
 				printf(" ");
