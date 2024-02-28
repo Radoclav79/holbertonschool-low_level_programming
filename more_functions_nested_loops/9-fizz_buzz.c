@@ -20,7 +20,7 @@ int main(void)
 		}
 		else if ((i + 1) % 3 == 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
 			if (i < 99)
 			{
 				printf(" ");
@@ -28,7 +28,7 @@ int main(void)
 		}
 		else if ((i + 1) % 5 == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
 			if (i < 99)
 			{
 				printf(" ");
