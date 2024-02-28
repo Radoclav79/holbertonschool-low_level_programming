@@ -12,23 +12,35 @@ int main(void)
 	{
 		if ((i + 1) % 3 == 0 && ((i + 1) % 5 == 0))
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
+			if (i < 99)
+			{
+				printf(" ");
+			}
 		}
 		else if ((i + 1) % 3 == 0)
 		{
 			printf("Fizz ");
+			if (i < 99)
+			{
+				printf(" ");
+			}
 		}
 		else if ((i + 1) % 5 == 0)
 		{
 			printf("Buzz ");
+			if (i < 99)
+			{
+				printf(" ");
+			}
 		}
 		else
 		{
-			if (i == 99)
-			{
-				printf("%d\n", i + 1);
-			}
 			printf("%d ", i + 1);
+			if (i < 99)
+			{
+				printf(" ");
+			}
 		}
 	}
 	return (0);
