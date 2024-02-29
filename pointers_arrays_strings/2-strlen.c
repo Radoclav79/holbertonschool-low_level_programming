@@ -10,7 +10,6 @@ int _strlen(char *s)
 {
 	int len;
 
-	s = "My first sltrlen!";
 	len = _strlen(s);
 	printf("%d\n", len);
 	return (0);
