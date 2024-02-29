@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 /**
  * _strlen - string length
  * @s: parameter
@@ -9,8 +10,8 @@
 int _strlen(char *s)
 {
 	int len;
-
-	len = _strlen(s);
+	
+	len = strlen(s);
 	printf("%d\n", len);
 	return (0);
 }
