@@ -13,6 +13,4 @@ void swap_int(int *a, int *b)
 	int j = *b;
 	*a = j;
 	*b = i;
-
-	printf("*a = %x,*b = %x ", *a, *b);
 }
