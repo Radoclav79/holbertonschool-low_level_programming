@@ -9,5 +9,8 @@
  */
 void swap_int(int *a, int *b)
 {
-	printf("*a = %x,*b = %x", *b, *a);
+	int cher = *a;
+	int chare = *b;
+
+	printf("*a = %x,*b = %x", *b, chare);
 }
